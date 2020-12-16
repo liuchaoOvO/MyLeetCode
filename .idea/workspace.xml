@@ -116,10 +116,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="【算法题】20201216 增加.gitignore文件" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="245" y="0" key="CommitChangelistDialog2" timestamp="1608128812358">
+    <state x="245" y="0" key="CommitChangelistDialog2" timestamp="1608130492771">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="245" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1608128812358" />
+    <state x="245" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1608130492771" />
+    <state x="108" y="66" key="DiffContextDialog" timestamp="1608130490240">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="108" y="66" key="DiffContextDialog/0.0.1280.760@0.0.1280.760" timestamp="1608130490240" />
     <state x="422" y="126" key="FileChooserDialogImpl" timestamp="1608128193367">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
