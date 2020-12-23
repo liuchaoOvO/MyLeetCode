@@ -24,7 +24,7 @@ $RECYCLE.BIN/
 *.msp
 
 # Windows shortcuts
-.idea
+.idea/
 *.lnk
 ### Eclipse template
 
