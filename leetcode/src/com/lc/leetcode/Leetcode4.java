@@ -64,4 +64,63 @@ public class Leetcode4 {
         }
 
     }
+
+    /**
+     * @param l1
+     * @param l2
+     * @Description: 合并链表demo method
+     * @Date: 17:47
+     * @Return: ListNode
+     */
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        ListNode head = new ListNode(-1);         //定义头结点
+        ListNode p = l1;
+        ListNode q = l2;                  //定义双指针
+        ListNode r = head;                //定义新的链表的指针
+        while (p != null && q != null) {      //当其中一个链表遍历完了，退出循环
+            if (p.val < q.val) {            //双指针选择最小的元素添加到新链表中
+                r.next = p;
+                p = p.next;
+            } else {
+                r.next = q;
+                q = q.next;
+            }
+            System.out.println(r.val);
+            r = r.next;
+        }
+        while (p != null) {                    //当还有一个链表没有遍历完时，直接连接即可。
+            r.next = p;
+        }
+        while (q != null) {
+            r.next = q;
+        }
+        return head.next;
+    }
+
+    class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        public int getVal() {
+            return val;
+        }
+
+        public void setVal(int val) {
+            this.val = val;
+        }
+
+        public ListNode getNext() {
+            return next;
+        }
+
+        public void setNext(ListNode next) {
+            this.next = next;
+        }
+
+
+    }
+
 }
