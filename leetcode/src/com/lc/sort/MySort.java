@@ -11,11 +11,29 @@ import java.lang.reflect.Array;
 public class MySort {
     public static void main(String[] args) {
         int[] arr = {6, 4, 5,234,324543,12342,3456,245,567,223,1221,9};
+        //冒泡排序
+        doBubbleSort(arr);
+
         //快速排序
         doQuickSort(arr, 0, arr.length - 1);
 
+
+
         for (int i : arr) {
             System.out.print(i + " ");
+        }
+    }
+
+    private static void doBubbleSort(int[] arr) {
+        int length = arr.length;
+        for (int i = 0; i < length; i++) {
+            for (int j = 0; j < length - 1 - i; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
         }
     }
 
