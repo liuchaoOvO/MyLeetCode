@@ -42,6 +42,9 @@ public class leetcodex {
             resultStr = "";
         } else
             resultStr = "";
+        for (int i = index - 1; i < index + maxLen - 1; i++) {
+            resultStr = resultStr + strChar1[i];
+        }
         //str1.substring(index - 1, str1.length()-maxLen+1); 根据index 和maxLen 截断方式 待todo
         return resultStr;
 
