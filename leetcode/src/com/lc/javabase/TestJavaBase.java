@@ -13,6 +13,7 @@ class Father {
     //branch1 14:08
     //hello world
     private static int j = method();
+    private static String str="hello world";
     private int i = test();
     static {
         System.out.println(1);
