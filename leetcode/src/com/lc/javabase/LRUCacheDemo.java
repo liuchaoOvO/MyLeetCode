@@ -11,6 +11,7 @@ import java.util.LinkedHashMap;
  */
 public class LRUCacheDemo<K,V> extends LinkedHashMap<K,V> {
     private int capacity;
+
     public LRUCacheDemo(int capacity){
         //参数1，坑位，传过来的值，参数2，加载因子，参数3，访问顺序
         super(capacity,0.75F,true);
