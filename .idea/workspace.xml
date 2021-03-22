@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9da441dc-6391-4a24-82cf-ac47aa4899ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9da441dc-6391-4a24-82cf-ac47aa4899ff" name="Default Changelist" comment="【javabase】20210322 test git account branch1 14:27" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,8 +28,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1lk5CTBYJcySvhe9YXzFRHKohy2" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -118,7 +116,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -135,10 +135,11 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="245" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1608130492771" />
-    <state x="108" y="66" key="DiffContextDialog" timestamp="1608130490240">
-      <screen x="0" y="0" width="1280" height="760" />
+    <state x="162" y="90" width="1536" height="832" key="DiffContextDialog" timestamp="1616404363288">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="108" y="66" key="DiffContextDialog/0.0.1280.760@0.0.1280.760" timestamp="1608130490240" />
+    <state x="162" y="90" width="1536" height="832" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616404363288" />
     <state x="422" y="126" key="FileChooserDialogImpl" timestamp="1608128193367">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -147,10 +148,15 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1608128200491" />
-    <state x="233" y="105" key="Vcs.Push.Dialog.v2" timestamp="1608130069850">
-      <screen x="0" y="0" width="1280" height="760" />
+    <state x="746" y="158" key="VCS.ChangeListViewerDialog" timestamp="1616404244782">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="746" y="158" key="VCS.ChangeListViewerDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616404244782" />
+    <state x="350" y="144" key="Vcs.Push.Dialog.v2" timestamp="1616404379918">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="105" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1608130069850" />
+    <state x="350" y="144" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616404379918" />
     <state x="438" y="299" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608128555959">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -159,6 +165,10 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="337" y="183" key="git4idea.merge.GitPullDialog/0.0.1280.760@0.0.1280.760" timestamp="1608128818884" />
+    <state x="67" y="338" width="1775" height="364" key="git4idea.ui.GitUnstashDialog" timestamp="1616404338358">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="67" y="338" width="1775" height="364" key="git4idea.ui.GitUnstashDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616404338358" />
     <state x="6" y="0" key="new project wizard" timestamp="1608128237862">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
