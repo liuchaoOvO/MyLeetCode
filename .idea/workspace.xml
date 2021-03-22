@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9da441dc-6391-4a24-82cf-ac47aa4899ff" name="Default Changelist" comment="【javabase】20210322 test git account branch1 14:27" />
+    <list default="true" id="9da441dc-6391-4a24-82cf-ac47aa4899ff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608130522244</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="【javabase】20210322 ignore">
+      <created>1616404487003</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616404487003</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,13 +137,15 @@
     <MESSAGE value="【算法题】20201216 创建项目框架" />
     <MESSAGE value="【算法题】20201216 增加.gitignore文件" />
     <MESSAGE value="【算法题】20201216 增加.gitignore文件的 .idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="【算法题】20201216 增加.gitignore文件的 .idea" />
+    <MESSAGE value="【javabase】20210322 ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="【javabase】20210322 ignore" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="245" y="0" key="CommitChangelistDialog2" timestamp="1608130492771">
-      <screen x="0" y="0" width="1280" height="760" />
+    <state x="368" y="0" key="CommitChangelistDialog2" timestamp="1616404486090">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="245" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1608130492771" />
+    <state x="368" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1616404486090" />
     <state x="162" y="90" width="1536" height="832" key="DiffContextDialog" timestamp="1616404363288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -152,11 +163,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="746" y="158" key="VCS.ChangeListViewerDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616404244782" />
-    <state x="350" y="144" key="Vcs.Push.Dialog.v2" timestamp="1616404379918">
+    <state x="350" y="144" key="Vcs.Push.Dialog.v2" timestamp="1616404592154">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="105" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1608130069850" />
-    <state x="350" y="144" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616404379918" />
+    <state x="350" y="144" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616404592154" />
     <state x="438" y="299" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608128555959">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
