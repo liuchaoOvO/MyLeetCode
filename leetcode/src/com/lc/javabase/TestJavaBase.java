@@ -9,14 +9,13 @@ package com.lc.javabase;
 public class TestJavaBase { //1 6 2 3 7 8       5 1 10 6  3 2 8 7
 }
 class Father {
-    //branch2 14:07
+    //branch2 14:30
     private static int j = method();
-    private static String str="hello world";
+    private static String str="hello world branch2 14:30";
     private int i = test();
     static {
         System.out.println(1);
     }
-    //14:13
     public String branch2="branch2";
     public Father() {
         System.out.println(2);
