@@ -31,6 +31,8 @@ class Father {
         System.out.println(5);
         return 1;
     }
+    //branch2 14:37
+    private static String str3="hello world branch2 14:37";
 }
 
  class Son extends Father {
