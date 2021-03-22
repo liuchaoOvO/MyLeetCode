@@ -15,6 +15,8 @@ class Father {
     static {
         System.out.println(1);
     }
+    //14:13
+    public String branch2="branch2";
     public Father() {
         System.out.println(2);
     }
