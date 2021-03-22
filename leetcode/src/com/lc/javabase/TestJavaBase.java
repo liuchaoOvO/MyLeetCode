@@ -9,6 +9,7 @@ package com.lc.javabase;
 public class TestJavaBase { //1 6 2 3 7 8       5 1 10 6  3 2 8 7
 }
 class Father {
+    //branch2 14:07
     private static int j = method();
     private int i = test();
     static {
