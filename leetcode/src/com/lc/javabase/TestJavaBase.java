@@ -18,6 +18,8 @@ class Father {
     static {
         System.out.println(1);
     }
+    //branch1 14:33
+    private static String str1="hello world 33";
     public Father() {
         System.out.println(2);
     }
