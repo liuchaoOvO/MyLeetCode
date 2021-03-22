@@ -10,10 +10,10 @@ public class TestJavaBase { //1 6 2 3 7 8       5 1 10 6  3 2 8 7
 }
 class Father {
 
-    //branch1 14:08
-    //hello world
+    //branch1 14:27
+
     private static int j = method();
-    private static String str="hello world";
+    private static String str="hello world 27";
     private int i = test();
     static {
         System.out.println(1);
