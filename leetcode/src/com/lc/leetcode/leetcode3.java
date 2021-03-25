@@ -1,5 +1,7 @@
 package com.lc.leetcode;
 
+import com.sun.org.glassfish.gmbal.Description;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -25,6 +27,12 @@ import java.util.Map;
  */
 public class leetcode3 {
 
+    /**
+     * @param s
+     * @Description: 滑动窗口
+     * @Date: 17:59
+     * @Return: int
+     */
     public int lengthOfLongestSubstring(String s) {
         int length = s.length();
         int ans = 0;
