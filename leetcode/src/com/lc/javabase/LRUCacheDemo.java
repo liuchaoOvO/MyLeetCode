@@ -22,23 +22,30 @@ public class LRUCacheDemo<K,V> extends LinkedHashMap<K,V> {
         return super.size()>capacity;
     }
     public static void main(String[] args) {
-        //坑位是3个
-        LRUCacheDemo lruCacheDemo=new LRUCacheDemo<>(3);
-        lruCacheDemo.put(1,"a");
-        lruCacheDemo.put(2,"b");
-        lruCacheDemo.put(3,"c");
-        System.out.println(lruCacheDemo.keySet());
-        lruCacheDemo.put(4,"d");
-        System.out.println(lruCacheDemo.keySet());
-        lruCacheDemo.put(3,"c");
-        System.out.println(lruCacheDemo.keySet());
-        lruCacheDemo.put(3,"c");
-        System.out.println(lruCacheDemo.keySet());
-        lruCacheDemo.put(3,"c");
-        System.out.println(lruCacheDemo.keySet());
-        lruCacheDemo.put(3,"c");
-        System.out.println(lruCacheDemo.keySet());
-        lruCacheDemo.put(5,"x");
-        System.out.println(lruCacheDemo.keySet());
+        int[] array = new int[]{1,3,3,3,3,6,7};
+        System.out.println(MoreThanHalfNum_Solution(array));
     }
+
+    private static int  MoreThanHalfNum_Solution(int[] array) {
+        if(array==null||array.length==0){
+            return 0;
+        }
+        int length=array.length;
+        int half=length/2;
+        int count=0;//计数
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j <array.length ; j++) {
+                if(array[i]==array[j]){
+                    count++;
+                    if(count>half){
+                        return array[i];
+                    }
+                }
+            }
+            count=0;
+        }
+        return 0;
+    }
+
+
 }
