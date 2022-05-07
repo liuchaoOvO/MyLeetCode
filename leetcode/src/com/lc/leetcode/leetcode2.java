@@ -44,7 +44,7 @@ class ListNode {
 
 public class leetcode2 {
 
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode pre = new ListNode(0);
         ListNode cur = pre;
         int carry = 0;//表示进位
@@ -56,10 +56,10 @@ public class leetcode2 {
             sum = sum % 10;
             cur.next = new ListNode(sum);
             cur = cur.next;
-            if (l1.next != null) {
+            if (l1 != null) {
                 l1 = l1.next;
             }
-            if (l2.next != null) {
+            if (l2 != null) {
                 l2 = l2.next;
             }
         }
